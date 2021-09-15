@@ -12,7 +12,7 @@ class PluginMagnetAddDownloadName:
     schema = {"type": "boolean"}
 
     @staticmethod
-    def add_dn(url, title) -> str:
+    def add_dn(url: str, title: str) -> str:
         u: urllib.parse.ParseResult = urllib.parse.urlparse(url)
         if u.scheme != "magnet":
             return url
@@ -22,7 +22,7 @@ class PluginMagnetAddDownloadName:
         query = urllib.parse.urlencode(qs, doseq=True, safe=":+/")
         return urllib.parse.ParseResult(
             scheme=u.scheme,
-            netloc=u.hostname,
+            netloc=u.netloc,
             path=u.path,
             params=u.params,
             query=query,
@@ -31,7 +31,7 @@ class PluginMagnetAddDownloadName:
 
     # Run after download plugin to only pick up entries it did not already handle
     @plugin.priority(plugin.PRIORITY_FIRST)
-    def on_task_metainfo(self, task: Task, config):
+    def on_task_metainfo(self, task: Task, config: bool) -> None:
         if not config:
             return
         for entry in task.all_entries:
@@ -41,5 +41,5 @@ class PluginMagnetAddDownloadName:
 
 
 @event("plugin.register")
-def register_plugin():
+def register_plugin() -> None:
     plugin.register(PluginMagnetAddDownloadName, "magnet_add_dn", api_ver=2)
