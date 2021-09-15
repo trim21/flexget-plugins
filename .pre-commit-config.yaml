@@ -30,7 +30,7 @@ repos:
         args: ["--py37-plus"]
 
   - repo: https://github.com/myint/autoflake
-    rev: 7a53fdafc82c33f446915b60fcac947c51279260  # frozen: v1.4
+    rev: 7a53fdafc82c33f446915b60fcac947c51279260 # frozen: v1.4
     hooks:
       - id: autoflake
         args:
