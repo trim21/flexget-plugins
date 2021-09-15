@@ -1213,7 +1213,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "0afaa6d245d59b2e2839ebfc328777e16d47abd04c8dafa80f8469701e8504a8"
+content-hash = "e7375fa0a91df71b433e48654fb3510a785243da9928af94cf4396a62fd7a346"
 
 [metadata.files]
 aiocontextvars = [
