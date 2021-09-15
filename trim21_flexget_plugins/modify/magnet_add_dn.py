@@ -14,7 +14,7 @@ class PluginMagnetAddDownloadName:
     @staticmethod
     def add_dn(url, title) -> str:
         u: urllib.parse.ParseResult = urllib.parse.urlparse(url)
-        if u.scheme != 'magnet':
+        if u.scheme != "magnet":
             return url
         qs = urllib.parse.parse_qs(u.query, keep_blank_values=True)
         if "dn" not in qs:
