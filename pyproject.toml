@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "flexget-plugins"
+name = "trim21-flexget-plugins"
 version = "0.0.1-alpha.0"
 description = "A set of plugins for flexget"
 keywords = ['flexget', 'plugin']
@@ -21,10 +21,10 @@ classifiers = [
   'Programming Language :: Python :: Implementation :: CPython',
 ]
 include = ["LICENSE", "readme.md"]
-packages = [{ include = "flexget_plugins" }]
+packages = [{ include = "trim21_flexget_plugins" }]
 
 [tool.poetry.plugins."FlexGet.plugins"]
-"magnet_add_dn" = "flexget_plugins.modify.magnet_add_dn.PluginMagnetAddDownloadName"
+"magnet_add_dn" = "trim21_flexget_plugins.modify.magnet_add_dn.PluginMagnetAddDownloadName"
 
 [tool.poetry.dependencies]
 python = "^3.6"

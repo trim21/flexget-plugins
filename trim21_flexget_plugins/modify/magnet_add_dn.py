@@ -2,6 +2,7 @@ import urllib.parse
 
 from flexget import plugin
 from flexget.event import event
+from flexget.task import Task
 from loguru import logger
 
 logger = logger.bind(name="magnet_add_dn")
@@ -11,12 +12,14 @@ class PluginMagnetAddDownloadName:
     schema = {"type": "boolean"}
 
     @staticmethod
-    def add_dn(magnet, title) -> str:
-        u: urllib.parse.ParseResult = urllib.parse.urlparse(magnet)
+    def add_dn(url, title) -> str:
+        u: urllib.parse.ParseResult = urllib.parse.urlparse(url)
+        if u.scheme != 'magnet':
+            return url
         qs = urllib.parse.parse_qs(u.query, keep_blank_values=True)
         if "dn" not in qs:
             qs["dn"] = [title]
-        query = urllib.parse.urlencode(qs, doseq=True, safe=":+")
+        query = urllib.parse.urlencode(qs, doseq=True, safe=":+/")
         return urllib.parse.ParseResult(
             scheme=u.scheme,
             netloc=u.hostname,
@@ -27,11 +30,11 @@ class PluginMagnetAddDownloadName:
         ).geturl()
 
     # Run after download plugin to only pick up entries it did not already handle
-    @plugin.priority(0)
-    def on_task_output(self, task, config):
+    @plugin.priority(plugin.PRIORITY_FIRST)
+    def on_task_metainfo(self, task: Task, config):
         if not config:
             return
-        for entry in task.accepted:
+        for entry in task.all_entries:
             entry["url"] = self.add_dn(entry["url"], entry["title"])
             if "urls" in entry:
                 entry["urls"] = [self.add_dn(x, entry["title"]) for x in entry]
