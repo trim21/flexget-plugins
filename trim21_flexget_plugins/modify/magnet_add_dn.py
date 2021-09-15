@@ -3,9 +3,6 @@ import urllib.parse
 from flexget import plugin
 from flexget.event import event
 from flexget.task import Task
-from loguru import logger
-
-logger = logger.bind(name="magnet_add_dn")
 
 
 class PluginMagnetAddDownloadName:
