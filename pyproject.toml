@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trim21-flexget-plugins"
-version = "0.0.1-alpha.0"
+version = "0.0.1"
 description = "A set of plugins for flexget"
 keywords = ['flexget', 'plugin']
 authors = ["Trim21 <i@trim21.me>"]
