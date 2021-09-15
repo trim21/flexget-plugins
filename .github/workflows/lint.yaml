@@ -67,8 +67,6 @@ jobs:
       - uses: Trim21/setup-poetry@dist/v1
 
       - uses: Trim21/install-poetry-project@dist/v1
-        with:
-          extras: docs
 
       - run: echo "::add-matcher::.github/workflows/matcher/pylint.json"
 
@@ -87,15 +85,11 @@ jobs:
       - uses: Trim21/setup-poetry@dist/v1
 
       - uses: Trim21/install-poetry-project@dist/v1
-        with:
-          extras: docs
 
       - uses: actions/cache@v2
         with:
           path: ~/.cache/pre-commit
-          key:
-            precommit-2-${{ env.PY }}-${{ hashFiles('.pre-commit-config.yaml')
-            }}
+          key: precommit-2-${{ env.PY }}-${{ hashFiles('.pre-commit-config.yaml') }}
           restore-keys: precommit-2-${{ env.PY }}-
 
       - name: pre-commit
