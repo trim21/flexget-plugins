@@ -1,3 +1,9 @@
+![PyPI](https://img.shields.io/pypi/v/trim21-flexget-plugins)
+
+```bash
+pip install trim21-flexget-plugins
+```
+
 # Add Download Name to Magnet url
 
 ```yaml
