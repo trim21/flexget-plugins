@@ -40,7 +40,7 @@ repos:
           - --expand-star-imports
 
   - repo: https://github.com/timothycrosley/isort
-    rev: fd5ba70665a37ec301a1f714ed09336048b3be63  # frozen: 5.9.3
+    rev: fd5ba70665a37ec301a1f714ed09336048b3be63 # frozen: 5.9.3
     hooks:
       - id: isort
         require_serial: true
