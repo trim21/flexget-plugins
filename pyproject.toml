@@ -24,7 +24,7 @@ include = ["LICENSE", "readme.md"]
 packages = [{ include = "trim21_flexget_plugins" }]
 
 [tool.poetry.plugins."FlexGet.plugins"]
-"magnet_add_dn" = "trim21_flexget_plugins.modify.magnet_add_dn.PluginMagnetAddDownloadName"
+"magnet_add_dn" = "trim21_flexget_plugins.modify.magnet_add_dn"
 
 [tool.poetry.dependencies]
 python = "^3.7"
