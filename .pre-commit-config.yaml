@@ -39,6 +39,13 @@ repos:
           - --remove-all-unused-imports
           - --expand-star-imports
 
+  - repo: https://github.com/PyCQA/flake8
+    rev: 82b698e # frozen: 4.0.1
+    hooks:
+      - id: flake8
+        args:
+          - --ignore=C0103,C0111,R0903,W503,W504,C812,C813,C815,C819,B008,E265,E501
+
   - repo: https://github.com/timothycrosley/isort
     rev: fd5ba70665a37ec301a1f714ed09336048b3be63 # frozen: 5.9.3
     hooks:
