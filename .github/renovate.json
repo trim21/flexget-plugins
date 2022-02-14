@@ -2,11 +2,11 @@
   "extends": ["@trim21", "@trim21:monthly", "@trim21:poetry"],
   "separateMajorMinor": false,
   "separateMinorPatch": false,
-  "rangeStrategy": "widen",
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "depTypeList": ["dev-dependencies"],
-      "rangeStrategy": "widen"
+      "rangeStrategy": "bump"
     }
   ]
 }
