@@ -323,7 +323,7 @@ test = ["blinker", "Faker (==2.0.0)", "mock (==3.0.5)", "pytest-benchmark (==3.2
 
 [[package]]
 name = "flexget"
-version = "3.3.0"
+version = "3.3.3"
 description = "FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more."
 category = "dev"
 optional = false
@@ -824,11 +824,11 @@ python-versions = "*"
 
 [[package]]
 name = "pytest"
-version = "7.0.1"
+version = "7.1.0"
 description = "pytest: simple powerful testing with Python"
 category = "dev"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 atomicwrites = {version = ">=1.0", markers = "sys_platform == \"win32\""}
@@ -1150,7 +1150,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "601c6a1edd768a7f4471064460e397b4d9c0d7d407ce907ae7d19f7dd0920d7b"
+content-hash = "848df9183a06fd450b2160434ffac4eb3a9c95fa094d9c8a9262b3a066fd8524"
 
 [metadata.files]
 aniso8601 = [
@@ -1353,8 +1353,8 @@ flask-restx = [
     {file = "flask_restx-0.5.1-py2.py3-none-any.whl", hash = "sha256:96157547acaa8892adcefd8c60abf9040212ac2a8634937a82946e07b46147fd"},
 ]
 flexget = [
-    {file = "FlexGet-3.3.0-py3-none-any.whl", hash = "sha256:a7554bbd8c5120ef68378cca0c39e93b5794233a181b1e8408cb8d8f7aa16deb"},
-    {file = "FlexGet-3.3.0.tar.gz", hash = "sha256:74bef5c3d05e31b869de53656b5390efbd1e948805c2d747cd4d260511f16163"},
+    {file = "FlexGet-3.3.3-py3-none-any.whl", hash = "sha256:a311bf255a7735a9b7a2f40dfb3fedfb754b5dbb488b5b48db0c533c9941b523"},
+    {file = "FlexGet-3.3.3.tar.gz", hash = "sha256:4b61e6b8a90ee009697e6aaa5aea7ee1beb57d47e0dde2b5c6f471328d86e690"},
 ]
 greenlet = [
     {file = "greenlet-1.1.2-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:58df5c2a0e293bf665a51f8a100d3e9956febfbf1d9aaf8c0677cf70218910c6"},
@@ -1681,8 +1681,8 @@ pyrss2gen = [
     {file = "PyRSS2Gen-1.1.tar.gz", hash = "sha256:7960aed7e998d2482bf58716c316509786f596426f879b05f8d84e98b82c6ee7"},
 ]
 pytest = [
-    {file = "pytest-7.0.1-py3-none-any.whl", hash = "sha256:9ce3ff477af913ecf6321fe337b93a2c0dcf2a0a1439c43f5452112c1e4280db"},
-    {file = "pytest-7.0.1.tar.gz", hash = "sha256:e30905a0c131d3d94b89624a1cc5afec3e0ba2fbdb151867d8e0ebd49850f171"},
+    {file = "pytest-7.1.0-py3-none-any.whl", hash = "sha256:b555252a95bbb2a37a97b5ac2eb050c436f7989993565f5e0c9128fcaacadd0e"},
+    {file = "pytest-7.1.0.tar.gz", hash = "sha256:f1089d218cfcc63a212c42896f1b7fbf096874d045e1988186861a1a87d27b47"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
