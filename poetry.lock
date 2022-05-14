@@ -333,7 +333,7 @@ test = ["blinker", "Faker (==2.0.0)", "mock (==3.0.5)", "pytest-benchmark (==3.2
 
 [[package]]
 name = "flexget"
-version = "3.3.8"
+version = "3.3.9"
 description = "FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more."
 category = "dev"
 optional = false
@@ -764,7 +764,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 
 [[package]]
 name = "pre-commit"
-version = "2.18.1"
+version = "2.19.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -843,7 +843,7 @@ python-versions = "*"
 
 [[package]]
 name = "pytest"
-version = "7.1.1"
+version = "7.1.2"
 description = "pytest: simple powerful testing with Python"
 category = "dev"
 optional = false
@@ -1194,7 +1194,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "e0077bac6252629f5cc09d683b17a11e1054922bf32ef33cdfec0a3266bcbd0f"
+content-hash = "4226d5ff516bd4276d91c33ae33e0f487c984927bf436a9762dff6778d907df0"
 
 [metadata.files]
 aniso8601 = [
@@ -1415,8 +1415,8 @@ flask-restx = [
     {file = "flask_restx-0.5.1-py2.py3-none-any.whl", hash = "sha256:96157547acaa8892adcefd8c60abf9040212ac2a8634937a82946e07b46147fd"},
 ]
 flexget = [
-    {file = "FlexGet-3.3.8-py3-none-any.whl", hash = "sha256:f60a9d09a1a2fe01577a46a129868a586fbf2f1141991e076052e6c6b1ff0f21"},
-    {file = "FlexGet-3.3.8.tar.gz", hash = "sha256:fcd35c5bef2b095c00185a371267fbb8dd5895368d4b86c72be387b1b66b2d9a"},
+    {file = "FlexGet-3.3.9-py3-none-any.whl", hash = "sha256:70670cb12185f69f1c48b5b139726bc10b7fd834aaf8e7093039642948c5050f"},
+    {file = "FlexGet-3.3.9.tar.gz", hash = "sha256:e9f315bf50daa0744047a9d60b192f77821223c80c6a4b924c99325e4f4ddd90"},
 ]
 greenlet = [
     {file = "greenlet-1.1.2-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:58df5c2a0e293bf665a51f8a100d3e9956febfbf1d9aaf8c0677cf70218910c6"},
@@ -1668,8 +1668,8 @@ portend = [
     {file = "portend-3.0.0.tar.gz", hash = "sha256:df891766ee4fd887d83051b5ee9524aaad95a626f56faf5790682b6250ef03b9"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.18.1-py2.py3-none-any.whl", hash = "sha256:02226e69564ebca1a070bd1f046af866aa1c318dbc430027c50ab832ed2b73f2"},
-    {file = "pre_commit-2.18.1.tar.gz", hash = "sha256:5d445ee1fa8738d506881c5d84f83c62bb5be6b2838e32207433647e8e5ebe10"},
+    {file = "pre_commit-2.19.0-py2.py3-none-any.whl", hash = "sha256:10c62741aa5704faea2ad69cb550ca78082efe5697d6f04e5710c3c229afdd10"},
+    {file = "pre_commit-2.19.0.tar.gz", hash = "sha256:4233a1e38621c87d9dda9808c6606d7e7ba0e087cd56d3fe03202a01d2919615"},
 ]
 psutil = [
     {file = "psutil-5.9.0-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:55ce319452e3d139e25d6c3f85a1acf12d1607ddedea5e35fb47a552c051161b"},
@@ -1747,8 +1747,8 @@ pyrss2gen = [
     {file = "PyRSS2Gen-1.1.tar.gz", hash = "sha256:7960aed7e998d2482bf58716c316509786f596426f879b05f8d84e98b82c6ee7"},
 ]
 pytest = [
-    {file = "pytest-7.1.1-py3-none-any.whl", hash = "sha256:92f723789a8fdd7180b6b06483874feca4c48a5c76968e03bb3e7f806a1869ea"},
-    {file = "pytest-7.1.1.tar.gz", hash = "sha256:841132caef6b1ad17a9afde46dc4f6cfa59a05f9555aae5151f73bdf2820ca63"},
+    {file = "pytest-7.1.2-py3-none-any.whl", hash = "sha256:13d0e3ccfc2b6e26be000cb6568c832ba67ba32e719443bfe725814d3c42433c"},
+    {file = "pytest-7.1.2.tar.gz", hash = "sha256:a06a0425453864a270bc45e71f783330a7428defb4230fb5e6a731fde06ecd45"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
