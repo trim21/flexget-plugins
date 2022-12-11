@@ -21,7 +21,7 @@ jobs:
 
       - uses: Trim21/install-poetry-project@dist/v1
 
-      - uses: liskin/gh-problem-matcher-wrap@v1
+      - uses: liskin/gh-problem-matcher-wrap@v2
         with:
           action: add
           linters: mypy
