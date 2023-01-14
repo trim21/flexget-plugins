@@ -9,7 +9,7 @@
   "rangeStrategy": "bump",
   "automerge": true,
   "packageRules": [
-     {
+    {
       "automerge": false,
       "matchUpdateTypes": ["major"]
     },
