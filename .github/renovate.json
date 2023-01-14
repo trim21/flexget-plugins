@@ -7,7 +7,12 @@
   "separateMajorMinor": false,
   "separateMinorPatch": false,
   "rangeStrategy": "bump",
+  "automerge": true,
   "packageRules": [
+     {
+      "automerge": false,
+      "matchUpdateTypes": ["major"]
+    },
     {
       "depTypeList": ["dev-dependencies"],
       "rangeStrategy": "bump"
