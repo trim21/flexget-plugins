@@ -41,7 +41,7 @@ repos:
           - --ignore=C0103,C0111,R0903,W503,W504,C812,C813,C815,C819,B008,E265,E501
 
   - repo: https://github.com/timothycrosley/isort
-    rev: 5.10.1
+    rev: 5.11.4
     hooks:
       - id: isort
         require_serial: true
