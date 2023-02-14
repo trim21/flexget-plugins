@@ -9,16 +9,16 @@ license = "MIT"
 repository = 'https://github.com/Trim21/flexget-plugins'
 homepage = 'https://github.com/Trim21/flexget-plugins'
 classifiers = [
-  'Development Status :: 1 - Planning',
-  'Programming Language :: Python',
-  'Programming Language :: Python :: 3',
-  'Programming Language :: Python :: 3 :: Only',
-  'Programming Language :: Python :: 3.6',
-  'Programming Language :: Python :: 3.7',
-  'Programming Language :: Python :: 3.8',
-  'Programming Language :: Python :: 3.9',
-  'Programming Language :: Python :: Implementation :: PyPy',
-  'Programming Language :: Python :: Implementation :: CPython',
+    'Development Status :: 1 - Planning',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: Implementation :: PyPy',
+    'Programming Language :: Python :: Implementation :: CPython',
 ]
 include = ["LICENSE", "readme.md"]
 packages = [{ include = "trim21_flexget_plugins" }]
@@ -33,7 +33,7 @@ python = "^3.7"
 [tool.poetry.dev-dependencies]
 # lint
 pre-commit = "^2.21.0"
-flexget = "^3.5.17"
+flexget = { version = "^3.5.17", python = "^3.9" }
 pytest = "^7.2.1"
 coverage = "^7.0"
 mypy = "^0.910"
