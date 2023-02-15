@@ -30,7 +30,7 @@ jobs:
       - name: Install Node LTS
         uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "16"
 
       - run: npm i -g prettier
 
