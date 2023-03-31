@@ -600,14 +600,14 @@ test = ["Faker (==2.0.0)", "blinker", "invoke (==1.7.3)", "mock (==3.0.5)", "pyt
 
 [[package]]
 name = "flexget"
-version = "3.5.33"
+version = "3.5.34"
 description = "FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "FlexGet-3.5.33-py3-none-any.whl", hash = "sha256:b2b4a0e54cdae60524eeb82113ef3c72706c010b7db0a93374e1a50d39de4b49"},
-    {file = "FlexGet-3.5.33.tar.gz", hash = "sha256:d8ff13199df81a24a6a781ecde81b1962b8d6abb409cf338d238f6a8457c554a"},
+    {file = "FlexGet-3.5.34-py3-none-any.whl", hash = "sha256:f3fd8062d4436df287aad59f8ab0edddb4cab504198b8f2932b0bbb23de64b10"},
+    {file = "FlexGet-3.5.34.tar.gz", hash = "sha256:84e4ccf036ba4767f279df1d0d78f48f955fd9c8ebee95a0b1ebd28bad74056f"},
 ]
 
 [package.dependencies]
@@ -2082,4 +2082,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "4eec1a55cfc28e6163c1be01154a66780599bfc8e22193af190ad0ac87bfb925"
+content-hash = "a5b50772712259affc2db4c03bdacd1ad40a227587b70e5c3cf471d2f93b78a9"
