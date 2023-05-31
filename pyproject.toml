@@ -35,7 +35,7 @@ python = "^3.7"
 pre-commit = { version = "^3.3.1", python = "^3.9" }
 flexget = "^3.6.7"
 pytest = "^7.3.1"
-coverage = "^7.2.5"
+coverage = "^7.2.7"
 mypy = "^1.2.0"
 
 [build-system]
