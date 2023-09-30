@@ -34,7 +34,7 @@ python = "^3.8"
 # lint
 pre-commit = { version = "^3.3.3", python = "^3.9" }
 flexget = "^3.9.10"
-pytest = "^7.4.0"
+pytest = "^7.4.2"
 coverage = "^7.3.1"
 mypy = "^1.5.1"
 
