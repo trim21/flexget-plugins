@@ -33,7 +33,7 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 # lint
 pre-commit = { version = "^3.3.3", python = "^3.9" }
-flexget = "^3.9.6"
+flexget = "^3.9.10"
 pytest = "^7.4.0"
 coverage = "^7.3.1"
 mypy = "^1.5.1"
