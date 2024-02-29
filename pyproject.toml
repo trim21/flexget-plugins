@@ -39,5 +39,5 @@ coverage = "^7.4.3"
 mypy = "^1.8.0"
 
 [build-system]
-requires = ["poetry>=1.8.1"]
+requires = ["poetry-core>=1.5.0"]
 build-backend = "poetry.masonry.api"
