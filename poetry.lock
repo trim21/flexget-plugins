@@ -754,13 +754,13 @@ test = ["Faker (==2.0.0)", "blinker", "invoke (==2.2.0)", "mock (==3.0.5)", "pyt
 
 [[package]]
 name = "flexget"
-version = "3.11.19"
+version = "3.11.27"
 description = "FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "FlexGet-3.11.19-py3-none-any.whl", hash = "sha256:ca972c8c7c88d4a4b39e3b7d97719cb7236e90e04e89dc6c8ef70a44b397ec61"},
-    {file = "FlexGet-3.11.19.tar.gz", hash = "sha256:f27bf586b958dfa25df07b91b9ce8d343a959b8890e06968bd8ff830e04b5f60"},
+    {file = "FlexGet-3.11.27-py3-none-any.whl", hash = "sha256:811fc8213e4b1c76d31f8bc880add67abcbe5595b57ed361a116090627177684"},
+    {file = "FlexGet-3.11.27.tar.gz", hash = "sha256:0943cf1f830b1034524d275794a563a5dac7a5f4818f534fe728bec2d3bff2a9"},
 ]
 
 [package.dependencies]
@@ -830,7 +830,7 @@ referencing = {version = "0.32.0", markers = "python_version >= \"3.8\" and pyth
 requests = {version = "2.31.0", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
 rich = {version = "13.7.0", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
 rpds-py = {version = "0.16.2", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
-rpyc = {version = "5.3.1", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
+rpyc = {version = "6.0.0", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
 setuptools = {version = "69.0.3", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
 sgmllib3k = {version = "1.0.0", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
 six = {version = "1.16.0", markers = "python_version >= \"3.8\" and python_version < \"4.0\""}
@@ -2144,13 +2144,13 @@ files = [
 
 [[package]]
 name = "rpyc"
-version = "5.3.1"
+version = "6.0.0"
 description = "Remote Python Call (RPyC) is a transparent and symmetric distributed computing library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "rpyc-5.3.1-py3-none-any.whl", hash = "sha256:6e8153792ac221a80f420d2e0b241a10c6e43b105d325998b18a4e7af329f9ec"},
-    {file = "rpyc-5.3.1.tar.gz", hash = "sha256:f2233174879faf18ae266437d5a65511ce46c817cec4edc1344f036758cfbf52"},
+    {file = "rpyc-6.0.0-py3-none-any.whl", hash = "sha256:e86b5831378f794c623db46e8ade6fff766c56cf9dbe96886e614025b4647339"},
+    {file = "rpyc-6.0.0.tar.gz", hash = "sha256:a7e12b31f40978cbd6b74e0b713da389d4b2565cef612adcb0f4b41aeb188230"},
 ]
 
 [package.dependencies]
@@ -2484,4 +2484,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "1f55a9c2c06147d6e4fe892d25b7fa7bbb97deb213a4ec21d140b3e815f8a764"
+content-hash = "37022c6cb170614a5fd3cef61720c123891c13545bd94b06c3a0a0926b78daa3"
