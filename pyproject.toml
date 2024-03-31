@@ -36,7 +36,7 @@ pre-commit = { version = "^3.6.2", python = "^3.9" }
 flexget = "^3.11.27"
 pytest = "^8.0.2"
 coverage = "^7.4.4"
-mypy = "^1.8.0"
+mypy = "^1.9.0"
 
 [build-system]
 requires = ["poetry>=1.8.2"]
